@@ -29,7 +29,7 @@ class Details extends Component {
                 <article className="card" key={this.state.filme.id}>
                     <strong className="title-film">{this.state.filme.nome}</strong>
                     <img className="img" src={this.state.filme.foto} alt={this.state.filme.nome}></img>
-                    <p className="sinopse">{this.state.filme.sinopse}</p>
+                    <p className="sinopse">{this.state.filme.sinopse} sd</p>
                 </article>
             </div >
         );
